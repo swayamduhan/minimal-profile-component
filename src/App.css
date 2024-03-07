@@ -1,6 +1,6 @@
 .outer-div{
   display: flex;
-  justify-content: space-around;
+  justify-content:flex-start;
 }
 
 .back-div {
@@ -96,4 +96,10 @@
 .input-box {
   margin: 10px;
   padding : 10px;
+}
+
+.input-container {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
 }
